@@ -1,0 +1,17 @@
+class Exmethodoverload
+{
+void dis(int age)
+{
+System.out.println("Age is:"+age);
+}
+void dis(int age,String name)
+{
+System.out.println("Age is:"+age+"\t"+"Name is:"+name);
+}
+public static void main(String args[])
+{
+Exmethodoverload e1=new Exmethodoverload();
+e1.dis(28);
+e1.dis(28,"Bhoomi");
+}
+}
